@@ -4,8 +4,40 @@ html {
 
 }
 
+body {
+	margin: 0;
+}
 
-h1, h2, h3 {
+header{
+		background-color: #79756f;
+}
+
+h1 {
+
+	margin: 0;
+	color: white;
+	text-align: center;
+	font-family: 'Bevan', cursive;
+	padding: 0.5em 0em 0em 0em;
+}
+
+ol li{
+	display: inline-block;
+	color: white;
+}
+
+ol li a{
+	color: white;
+	text-decoration: none;
+	background-color: #703838;
+	margin:1em;
+	padding:0.5em;
+	border-radius: 0.5em;
+
+
+}
+
+h2, h3 {
 	font-family: 'Bevan', cursive;
 	color: #79756f;
 }
