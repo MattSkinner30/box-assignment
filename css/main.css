@@ -9,7 +9,9 @@ body {
 }
 
 header{
-		background-color: #79756f;
+	background-color: #79756f;
+	padding-bottom: 0.25em;
+	text-align: center;
 }
 
 h1 {
@@ -24,19 +26,32 @@ h1 {
 ol li{
 	display: inline-block;
 	color: white;
+	margin: 0;
+
 }
+
 
 ol li a{
 	color: white;
 	text-decoration: none;
 	background-color: #703838;
-	margin:1em;
 	padding:0.5em;
-	border-radius: 0.5em;
-
-
+	border-radius: 0.25em;
+	line-height: 2.25;
 }
 
+figure {
+	border: 5px solid #bcb9b2;
+	border-radius: 1em;
+	padding: 0.75em 0.75em 3em 0.75em;
+	text-align: center;
+	vertical-align: center;
+	margin: 0em 0.5em;
+}
+
+img {
+	width: 100%;
+}
 h2, h3 {
 	font-family: 'Bevan', cursive;
 	color: #79756f;
@@ -102,5 +117,38 @@ figcaption {
 }
 
 .link {
-	color: #713837;
+	color: #703838;
+	text-decoration: underline;
+	list-style-type: circle;
+}
+
+.sources {
+	color: white;
+	margin: 0.5em;
+	padding-top: 1em;
+}
+
+footer {
+	background-color: #79756f;
+	margin: 0;
+	list-style-type: circle;
+
+}
+
+dd {
+	padding-bottom: 1em;
+
+}
+
+dt {
+	font-weight: bold;
+}
+
+footer ul li a {
+	list-style-type: circle;
+	margin-left: 0;
+}
+
+footer ul {
+	margin: 0;
 }
