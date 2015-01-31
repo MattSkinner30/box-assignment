@@ -35,7 +35,7 @@ ol li a{
 	color: white;
 	text-decoration: none;
 	background-color: #703838;
-	padding:0.5em;
+	padding: 1em;
 	border-radius: 0.25em;
 	line-height: 2.25;
 }
@@ -124,14 +124,17 @@ figcaption {
 
 .sources {
 	color: white;
-	margin: 0.5em;
-	padding-top: 1em;
+	margin-left:  0.5em;
+	margin-top: 1em;
+	padding-top: 3em;
+	display: inline;
 }
 
 footer {
 	background-color: #79756f;
 	margin: 0;
 	list-style-type: circle;
+	padding-top: 0.75em;
 
 }
 
@@ -151,4 +154,6 @@ footer ul li a {
 
 footer ul {
 	margin: 0;
+	display: block;
+
 }
