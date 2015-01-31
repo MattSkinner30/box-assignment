@@ -6,12 +6,17 @@ html {
 
 body {
 	margin: 0;
+
 }
 
 header{
 	background-color: #79756f;
 	padding-bottom: 0.25em;
 	text-align: center;
+}
+
+main {
+	padding: 0.5em;
 }
 
 h1 {
