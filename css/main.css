@@ -91,6 +91,14 @@ a:hover {
 	font-family: times-new-roman, serif;
 }
 
+.quotemarks {
+	display: block;
+	font-style: italic;
+	font-size: 3rem;
+	display: inline;
+	line-height: 1;
+}
+
 b{
 	color: #79757c;
 	font-style: normal;
